@@ -24,7 +24,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./wordpress:/var/www/html
+      - ./:/var/www/html
     networks:
       - app_network
 
